@@ -1,5 +1,6 @@
 import React from 'react';
 import NewsItem from './NewsItem';
+import './NewsList.css';
 
 
 
@@ -11,10 +12,12 @@ const NewsList = ({stories}) => {
     
     return (
         <>
-        <h3>
-            This is the news list
-        </h3>
+        <h2 className='latest-news'>
+            Latest News
+        </h2>
+        <div className="news-list">
             {storyNodes}
+        </div>
         </>
     );
 };

@@ -1,0 +1,11 @@
+.news-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.latest-news {
+    text-align: center;
+    justify-content: center;
+}

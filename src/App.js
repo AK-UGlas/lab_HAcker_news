@@ -5,7 +5,7 @@ import NewsContainer from './containers/NewsContainer';
 function App() {
   return (
     <>
-    <h1>This is our HACKER NEWS APP</h1>
+    <h1>HACKER NEWS</h1>
     <NewsContainer />
     </>
   );
